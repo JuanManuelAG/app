@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxImg{
+    width: 35%;
+    height: 80%;
+}
+.boxImgPrincipal{
+    min-width: 35vw;
+    display: flex;
+    justify-content: center;
+}
+.boxImgPrincipal img{
+    width: 80%;
+    border-radius: 10%;
+}
+
+.boxImgSmall{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 15px;
+}
+.imgSecundario{
+    width: 20%;
+    height: 10%;
+    border-radius: 10%;
+}
+
+.boxInfo{
+    width: 25%;
+    min-height: 10%;
+    padding-bottom: 6em;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    margin: 1em 0 1em 0;
+}
+.boxInfo p{
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+.price{
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+}
+.stock{
+    margin: 1em 0 1em 0;
+}
+button{
+    padding: 20px 50px 20px 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: #fab026;
+    color: #ffffff;
+    border-radius: 20px;
+}
