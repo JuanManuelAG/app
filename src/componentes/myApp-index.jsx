@@ -3,14 +3,14 @@ export function IndexMyApp({nameProduct, description, skuId, priceId}) {
     <>
     <div className='boxImg'>
       <div className='boxImgPrincipal'>
-         <img src="https://i.imgur.com/bEwOz8m.jpg" alt='zapatillas-1'/>
+         <img src="https://i.imgur.com/bEwOz8m.jpg" alt='zapatillas-2'/>
       </div>
       
       <div className='boxImgSmall'>
-        <img className='imgSecundario' src="https://i.imgur.com/WMGJZtG.jpg"/>
-        <img className='imgSecundario' src="https://i.imgur.com/KrMRT73.jpg"/>
-        <img className='imgSecundario' src="https://i.imgur.com/N3Gy14r.jpg"/>
-        <img className='imgSecundario' src="https://i.imgur.com/kSagmvW.jpg"/>
+        <img className='imgSecundario' src="https://i.imgur.com/WMGJZtG.jpg" alt="zapatilla-nike-derecha"/>
+        <img className='imgSecundario' src="https://i.imgur.com/KrMRT73.jpg" alt="zapatilla-nike-izquierda"/>
+        <img className='imgSecundario' src="https://i.imgur.com/N3Gy14r.jpg" alt="zapatilla-nike-frente"/>
+        <img className='imgSecundario' src="https://i.imgur.com/kSagmvW.jpg" alt="zapatilla-nike-arribaAbajo"/>
       </div>
     </div>
     
